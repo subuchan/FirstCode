@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.news-app {
+    display:flex;
+    justify-content: center;
+}
+.news-item {
+    width:90%;
+    padding:20px;
+    border:1px solid grey;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.news-img {
+    width:300px;
+}
