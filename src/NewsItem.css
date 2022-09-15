@@ -1,15 +1,13 @@
+
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
-.news-app {
-    display:flex;
-    justify-content: center;
-}
 .news-item {
     width:90%;
-    padding:20px;
+    height:100%;
+    padding:10px;
     border:1px solid grey;
     margin-bottom: 15px;
     margin-top: 15px;
@@ -17,3 +15,68 @@
 .news-img {
     width:300px;
 }
+
+.wrapper{
+    display:flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+.collapsible{
+    max-width: 90%;
+    overflow: hidden;
+    font-weight: 500px;
+}
+.collapsible input{
+    display:none;
+}
+.collapsible label{
+    position: relative;
+    font-weight: 600;
+    background: #fff;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.1),0 4px 11px 0 rgba(0,0,0,.08);
+    color:#1c1c6b;
+    margin-bottom:10px;
+    cursor: pointer;
+    padding:15px ;
+    border-radius: 4px;
+    z-index: 1;
+    display:flex;
+}
+.collapsible label:after{
+    content: "";
+    position: absolute;
+    right:15px;
+    top:15px;
+    width:18px;
+    height:18px;
+    background: url('https://www.svgrepo.com/show/39862/right-arrow.svg')no-repeat 0 0;
+    transition: all 0.3s ease;
+}
+.collapsible-text{
+    max-height:1px;
+    overflow: hidden;
+    border-radius: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+    transition:all 0.3s ease;
+    display:flex;
+    justify-content: center;
+}
+.collapsible  input:checked + label:after{
+    transform: rotate(90deg);
+}
+
+.collapsible input:checked~ .collapsible-text{
+    max-height:350px;
+    padding-bottom: 25px;
+    background: #fff;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.1),0 4px 11px 0 rgba(0,0,0,.08);
+    opacity:1;
+    top:0;
+   
+}
+
+   
+

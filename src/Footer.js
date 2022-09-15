@@ -8,62 +8,62 @@ function Footer() {
           <div class="row">
             <div class="footer-col">
               <h4>company</h4>
-              <ul>
-                <li>
-                  <a href="#">about us</a>
+              <ul class="ukg">
+                <li class="list">
+                  <a class="lkg" href="#">about us</a>
                 </li>
-                <li>
-                  <a href="#">our service</a>
+                <li class="list">
+                  <a class="lkg" href="#">our service</a>
                 </li>
-                <li>
-                  <a href="#">privacy policy</a>
+                <li class="list">
+                  <a class="lkg" href="#">privacy policy</a>
                 </li>
-                <li>
-                  <a href="#">Terms & Conditions</a>
+                <li class="list">
+                  <a class="lkg" href="#">Terms & Conditions</a>
                 </li>
               </ul>
             </div>
             <div class="footer-col">
               <h4>get help</h4>
-              <ul>
-                <li>
-                  <a href="#">FAQ</a>
+              <ul class="ukg">
+                <li class="list">
+                  <a class="lkg" href="#">FAQ</a>
                 </li>
-                <li>
-                  <a href="#">customer care</a>
+                <li class="list">
+                  <a class="lkg" href="#">customer care</a>
                 </li>
               </ul>
             </div>
             <div class="footer-col">
               <h4>News</h4>
-              <ul>
-                <li>
-                  <a href="#">cricket</a>
+              <ul class="ukg">
+                <li class="list">
+                  <a class="lkg" href="#">cricket</a>
                 </li>
-                <li>
-                  <a href="#">weather</a>
+                <li class="list">
+                  <a  class="lkg" href="#">weather</a>
                 </li>
-                <li>
-                  <a href="#">satellite</a>
+                <li class="list">
+                  <a class="lkg" href="#">satellite</a>
                 </li>
-                <li>
-                  <a href="#">live</a>
+                <li class="list">
+                  <a  class="lkg" href="#">live</a>
                 </li>
               </ul>
             </div>
             <div class="footer-col">
               <h4>follow us</h4>
               <div class="social-links">
-                <a href="#">
+                <a class="lkg" href="#">
                   <i class="fab fa-facebook-f"></i>
                 </a>
-                <a href="#">
+                <a class="lkg" href="#">
                   <i class="fab fa-twitter"></i>
                 </a>
-                <a href="#">
+                <a class="lkg"  href="#">
                   <i class="fab fa-instagram"></i>
                 </a>
-                <a href="#">
+                <a class="lkg" href="#">
                   <i class="fab fa-linkedin"></i>
                 </a>
               </div>
